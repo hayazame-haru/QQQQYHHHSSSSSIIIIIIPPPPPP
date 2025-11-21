@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GOVERNMENT CLASSIFIED</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <audio id="snd-error" src="assets/sounds/error.wav" preload="auto"></audio>
+
+
+  <div id="desktop" tabindex="0">
+    <div id="icons">
+      <div class="icon" data-file="important.txt"><img src="assets/note.png"><span>Important.txt</span></div>
+      <div class="icon" data-file="notes.txt"><img src="assets/note.png"><span>Notes.txt</span></div>
+      <div class="icon locked" data-file="folder1"><img src="assets/folder.png"><span>EXPERIMENT LOGS</span></div>
+      <div class="icon" data-file="photo.jpg"><img src="assets/photo.png"><span>Photo.jpg</span></div>
+      <div class="icon" data-file="terminal"><img src="assets/cmd.png"><span>Terminal</span></div>
+
+    </div>
+
+    <div id="taskbar">
+      <button id="start-btn" class="fake-start">🌐 Start</button>
+      <div id="taskbar-windows"></div>
+      <div id="taskbar-right">
+        <div id="tray"></div>
+        <div id="clock"></div>
+      </div>
+    </div>
+  </div>
+
+<div id="unauth-overlay">
+  <div id="unauth-window">
+    <h1>UNAUTHORIZED ACCESS</h1>
+    <p>HIGHER RANKED PERSONNEL ACCESS ONLY.</p>
+    <button id="unauth-close">Close</button>
+  </div>
+</div>
+
+
+<script src="fileContents.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
