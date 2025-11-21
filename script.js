@@ -138,7 +138,7 @@ function createWindow(title, type, data){
       out.innerHTML += `<div>${s}</div>`;
       term.scrollTop = term.scrollHeight;
     }
-    writeln("Welcome to the terminal==========.");
+    writeln(">>> Welcome, Operator\nAll nodes operational.\nType the passcode then 'pdf[#]' to see your restricted files.");
     input.addEventListener('keydown', e=>{
       if(e.key==="Enter"){
         const cmd = input.value.trim();
